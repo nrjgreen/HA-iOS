@@ -17,8 +17,6 @@ struct WidgetAssistView: View {
 
     init(entry: WidgetAssistEntry) {
         self.entry = entry
-
-        MaterialDesignIcons.register()
     }
 
     var body: some View {
@@ -36,19 +34,7 @@ struct WidgetAssistView: View {
     }
 
     private var accessoryCircular: some View {
-        VStack(spacing: 2) {
-            Image(uiImage: MaterialDesignIcons.messageProcessingOutlineIcon.image(
-                ofSize: .init(width: 24, height: 24),
-                color: .white
-            ))
-            .foregroundStyle(.ultraThickMaterial)
-            Image(imageAsset: Asset.SharedAssets.logo)
-                .resizable()
-                .frame(width: 10, height: 10)
-        }
-        .padding()
-        .background(Color(uiColor: .secondarySystemBackground))
-        .clipShape(Circle())
+        WidgetCircularView(icon: MaterialDesignIcons.messageProcessingOutlineIcon)
     }
 
     private var singleHomeScreenItem: some View {

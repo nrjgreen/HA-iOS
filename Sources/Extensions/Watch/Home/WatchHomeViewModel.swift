@@ -1,5 +1,6 @@
 import Communicator
 import Foundation
+import NetworkExtension
 import PromiseKit
 import RealmSwift
 import Shared
@@ -8,16 +9,18 @@ struct WatchActionItem: Equatable {
     let id: String
     let name: String
     let iconName: String
-    let backgroundColor: String
     let iconColor: String
+    let backgroundColor: String
     let textColor: String
+    let useCustomColors: Bool
 }
 
 protocol WatchHomeViewModelProtocol: ObservableObject {
-    var actions: [WatchActionItem] { get set }
+    var actions: [WatchActionItem] { get }
     func onAppear()
     func onDisappear()
     func runActionId(_ actionId: String, completion: @escaping (Bool) -> Void)
+    func fetchNetworkInfo(completion: (() -> Void)?)
 }
 
 enum WatchHomeViewState {
@@ -27,18 +30,19 @@ enum WatchHomeViewState {
     case idle
 }
 
+enum WatchSendError: Error {
+    case notImmediate
+    case phoneFailed
+    case wrongAudioURLData
+}
+
 final class WatchHomeViewModel: WatchHomeViewModelProtocol {
-    enum SendError: Error {
-        case notImmediate
-        case phoneFailed
-    }
-
-    @Published var actions: [WatchActionItem] = []
-
+    @Published private(set) var actions: [WatchActionItem] = []
     private var actionsToken: NotificationToken?
     private var realmActions: [Action] = []
 
     func onAppear() {
+        fetchNetworkInfo()
         setupActionsObservation()
     }
 
@@ -53,46 +57,58 @@ final class WatchHomeViewModel: WatchHomeViewModelProtocol {
         }
 
         Current.Log.verbose("Selected action id: \(actionId)")
+        fetchNetworkInfo {
+            firstly { () -> Promise<Void> in
+                Promise { seal in
+                    guard Communicator.shared.currentReachability == .immediatelyReachable else {
+                        seal.reject(WatchSendError.notImmediate)
+                        return
+                    }
 
-        firstly { () -> Promise<Void> in
-            Promise { seal in
-                guard Communicator.shared.currentReachability == .immediatelyReachable else {
-                    seal.reject(SendError.notImmediate)
-                    return
+                    Current.Log.verbose("Signaling action pressed via phone")
+                    let actionMessage = InteractiveImmediateMessage(
+                        identifier: InteractiveImmediateMessages.actionRowPressed.rawValue,
+                        content: ["ActionID": selectedAction.ID],
+                        reply: { message in
+                            Current.Log.verbose("Received reply dictionary \(message)")
+                            if message.content["fired"] as? Bool == true {
+                                seal.fulfill(())
+                            } else {
+                                seal.reject(WatchSendError.phoneFailed)
+                            }
+                        }
+                    )
+
+                    Current.Log
+                        .verbose(
+                            "Sending \(InteractiveImmediateMessages.actionRowPressed.rawValue) message \(actionMessage)"
+                        )
+                    Communicator.shared.send(actionMessage, errorHandler: { error in
+                        Current.Log.error("Received error when sending immediate message \(error)")
+                        seal.reject(error)
+                    })
+                }
+            }.recover { error -> Promise<Void> in
+                guard error == WatchSendError.notImmediate,
+                      let server = Current.servers.server(for: selectedAction) else {
+                    throw error
                 }
 
-                Current.Log.verbose("Signaling action pressed via phone")
-                let actionMessage = InteractiveImmediateMessage(
-                    identifier: "ActionRowPressed",
-                    content: ["ActionID": selectedAction.ID],
-                    reply: { message in
-                        Current.Log.verbose("Received reply dictionary \(message)")
-                        if message.content["fired"] as? Bool == true {
-                            seal.fulfill(())
-                        } else {
-                            seal.reject(SendError.phoneFailed)
-                        }
-                    }
-                )
-
-                Current.Log.verbose("Sending ActionRowPressed message \(actionMessage)")
-                Communicator.shared.send(actionMessage, errorHandler: { error in
-                    Current.Log.error("Received error when sending immediate message \(error)")
-                    seal.reject(error)
-                })
+                Current.Log.error("recovering error \(error) by trying locally")
+                return Current.api(for: server).HandleAction(actionID: selectedAction.ID, source: .Watch)
+            }.done {
+                completion(true)
+            }.catch { err in
+                Current.Log.error("Error during action event fire: \(err)")
+                completion(false)
             }
-        }.recover { error -> Promise<Void> in
-            guard error == SendError.notImmediate, let server = Current.servers.server(for: selectedAction) else {
-                throw error
-            }
+        }
+    }
 
-            Current.Log.error("recovering error \(error) by trying locally")
-            return Current.api(for: server).HandleAction(actionID: selectedAction.ID, source: .Watch)
-        }.done {
-            completion(true)
-        }.catch { err in
-            Current.Log.error("Error during action event fire: \(err)")
-            completion(false)
+    func fetchNetworkInfo(completion: (() -> Void)? = nil) {
+        NEHotspotNetwork.fetchCurrent { hotspotNetwork in
+            WatchUserDefaults.shared.set(hotspotNetwork?.ssid, key: .watchSSID)
+            completion?()
         }
     }
 
@@ -126,9 +142,10 @@ private extension Action {
             id: ID,
             name: Text,
             iconName: IconName,
-            backgroundColor: BackgroundColor,
             iconColor: IconColor,
-            textColor: TextColor
+            backgroundColor: BackgroundColor,
+            textColor: TextColor,
+            useCustomColors: useCustomColors
         )
     }
 }

@@ -115,7 +115,7 @@ struct BarcodeScannerView: View {
                     }, label: {
                         Image(uiImage: flashlightIcon)
                             .padding()
-                            .background(Color(uiColor: .init(hex: "#384956")))
+                            .background(Color(uiColor: .init(hex: "#45bdcf")))
                             .mask(Circle())
                             .offset(x: -22, y: -22)
                     })

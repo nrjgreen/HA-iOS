@@ -2,7 +2,8 @@
 import Foundation
 
 final class MockWatchHomeViewModel: WatchHomeViewModelProtocol {
-    @Published var actions: [WatchActionItem] = []
+    @Published var assistService: WatchAssistService = .init()
+    @Published private(set) var actions: [WatchActionItem] = []
     @Published var state: WatchHomeViewState = .idle
 
     func runActionId(_ actionId: String, completion: @escaping (Bool) -> Void) {}
@@ -13,13 +14,17 @@ final class MockWatchHomeViewModel: WatchHomeViewModelProtocol {
                 id: "1",
                 name: "Hello",
                 iconName: "ab_testing",
-                backgroundColor: "#34eba8",
-                iconColor: "#4479b3",
-                textColor: "#4479b3"
+                iconColor: "#45bdcf",
+                backgroundColor: "#45bdcf",
+                textColor: "#45bdcf",
+                useCustomColors: true
             ),
         ]
     }
 
     func onDisappear() {}
+
+    func fetchNetworkInfo(completion: (() -> Void)? = nil) {}
+    func syncContext() {}
 }
 #endif

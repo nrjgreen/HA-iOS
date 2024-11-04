@@ -6,6 +6,7 @@ public struct ThemeColors: Codable {
     public enum Color: String, CaseIterable {
         // these are in WebSocketBridge.js in this repo (we inject it)
         case appHeaderBackgroundColor = "--app-header-background-color"
+        case appThemeColor = "--app-theme-color"
         case primaryBackgroundColor = "--primary-background-color"
         case textPrimaryColor = "--text-primary-color"
         case primaryColor = "--primary-color"
@@ -19,7 +20,12 @@ public struct ThemeColors: Codable {
         if let value = values[color.rawValue] {
             return UIColor(rgbString: value) ?? UIColor(hex: value)
         } else {
-            return color.default
+            // Fallback for older HA sever versions which don't provide "appThemeColor" all the time.
+            if color == .appThemeColor, let value = values[ThemeColors.Color.appHeaderBackgroundColor.rawValue] {
+                return UIColor(rgbString: value) ?? UIColor(hex: value)
+            } else {
+                return color.default
+            }
         }
     }
 
@@ -77,6 +83,7 @@ private extension ThemeColors.Color {
         case .primaryBackgroundColor: return UIColor(red: 0.98, green: 0.98, blue: 0.98, alpha: 1.0)
         case .primaryColor: return UIColor.white
         case .textPrimaryColor: return UIColor.white
+        case .appThemeColor: return UIColor(red: 0.01, green: 0.66, blue: 0.96, alpha: 1.0)
         }
     }
 }

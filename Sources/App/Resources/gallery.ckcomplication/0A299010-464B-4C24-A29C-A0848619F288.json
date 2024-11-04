@@ -1,9 +1,9 @@
 {
   "tintColor" : {
-    "green" : 0.74000000953674316,
-    "red" : 0.25,
-    "alpha" : 1,
-    "blue" : 0.95999997854232788
+      "green" : 0.741,
+      "red" : 0.2571,
+      "alpha" : 1,
+      "blue" : 0.812
   },
   "class" : "CLKComplicationTemplateModularLargeTallBody",
   "bodyTextProvider" : {

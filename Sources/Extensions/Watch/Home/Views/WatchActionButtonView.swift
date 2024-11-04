@@ -18,7 +18,7 @@ struct WatchActionButtonView<ViewModel>: View where ViewModel: WatchHomeViewMode
     var body: some View {
         content
             .onChange(of: state) { newValue in
-                // On watchOS 10 this can be replaced by '.sensoryFeedback' modifier
+                // TODO: On watchOS 10 this can be replaced by '.sensoryFeedback' modifier
                 let currentDevice = WKInterfaceDevice.current()
                 switch newValue {
                 case .success:
@@ -42,18 +42,25 @@ struct WatchActionButtonView<ViewModel>: View where ViewModel: WatchHomeViewMode
                 resetState()
             }
         } label: {
-            HStack(spacing: Spaces.one) {
+            HStack(spacing: Spaces.two) {
                 iconToDisplay
+                    .frame(width: 30, height: 30)
                     .animation(.easeInOut, value: state)
                 Text(action.name)
-                    .foregroundStyle(Color(uiColor: .init(hex: action.textColor)))
+                    .foregroundStyle(action.useCustomColors ? Color(uiColor: .init(hex: action.textColor)) : .white)
             }
         }
         .disabled(state != .idle)
-        .listRowBackground(
-            Color(uiColor: .init(hex: action.backgroundColor))
-                .clipShape(RoundedRectangle(cornerRadius: 12))
-        )
+        .modify { view in
+            if action.useCustomColors {
+                view.listRowBackground(
+                    Color(uiColor: .init(hex: action.backgroundColor))
+                        .clipShape(RoundedRectangle(cornerRadius: 14))
+                )
+            } else {
+                view
+            }
+        }
     }
 
     private func resetState() {
@@ -66,28 +73,32 @@ struct WatchActionButtonView<ViewModel>: View where ViewModel: WatchHomeViewMode
         VStack {
             switch state {
             case .idle:
-                Image(uiImage: MaterialDesignIcons(named: action.iconName).image(
-                    ofSize: .init(width: 24, height: 24),
-                    color: .init(hex: action.iconColor)
-                ))
+                VStack {
+                    Image(uiImage: MaterialDesignIcons(named: action.iconName).image(
+                        ofSize: .init(width: 24, height: 24),
+                        color: .init(hex: action.iconColor)
+                    ))
+                    .foregroundColor(Color(uiColor: .init(hex: action.iconColor)))
+                    .padding(Spaces.one)
+                }
+                .background(Color(uiColor: .init(hex: action.iconColor)).opacity(0.3))
+                .clipShape(Circle())
             case .loading:
                 ProgressView()
                     .progressViewStyle(.circular)
                     .frame(width: 24, height: 24)
-                    .tint(.black)
                     .shadow(color: .white, radius: 10)
             case .success:
-                makeActionImage(iconName: MaterialDesignIcons.checkIcon.name)
+                makeActionImage(systemName: "checkmark.circle.fill")
             case .failure:
-                makeActionImage(iconName: MaterialDesignIcons.closeThickIcon.name)
+                makeActionImage(systemName: "xmark.circle")
             }
         }
     }
 
-    private func makeActionImage(iconName: String) -> some View {
-        Image(uiImage: MaterialDesignIcons(named: iconName).image(
-            ofSize: .init(width: 24, height: 24),
-            color: .init(hex: action.iconColor)
-        ))
+    private func makeActionImage(systemName: String) -> some View {
+        Image(systemName: systemName)
+            .font(.system(size: 24))
+            .foregroundStyle(.white)
     }
 }

@@ -124,7 +124,7 @@ class OnboardingScanningViewController: UIViewController {
         stackView.addArrangedSubview(with(UIButton(type: .custom)) {
             $0.setTitle(L10n.Onboarding.Scanning.manual, for: .normal)
             $0.addTarget(self, action: #selector(didSelectManual(_:)), for: .touchUpInside)
-            Current.style.onboardingButtonSecondary($0)
+            Current.style.onboardingButtonPrimary($0)
         })
 
         discovery.observer = self

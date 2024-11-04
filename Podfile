@@ -26,6 +26,7 @@ pod 'Communicator', git: 'https://github.com/zacwest/Communicator.git', branch: 
 pod 'KeychainAccess'
 pod 'ObjectMapper', git: 'https://github.com/tristanhimmelman/ObjectMapper.git', branch: 'master'
 pod 'PromiseKit'
+pod 'Improv-iOS', '~> 0.0.6'
 
 pod 'RealmSwift'
 pod 'UIColor_Hex_Swift'
@@ -92,7 +93,6 @@ abstract_target 'iOS' do
   target 'Extensions-NotificationService'
   target 'Extensions-PushProvider'
   target 'Extensions-Share'
-  target 'Extensions-Today'
   target 'Extensions-Widgets'
 end
 
