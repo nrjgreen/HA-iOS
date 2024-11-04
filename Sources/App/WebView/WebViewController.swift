@@ -342,7 +342,7 @@ final class WebViewController: UIViewController, WKNavigationDelegate, WKUIDeleg
 
         if let statusBarView = view.viewWithTag(111) {
             if server.info.version < .canUseAppThemeForStatusBar {
-                statusBarView.backgroundColor = cachedColors[.appHeaderBackgroundColor]
+                statusBarView.backgroundColor = cachedColors[.appThemeColor]
             } else {
                 statusBarView.backgroundColor = cachedColors[.appThemeColor]
             }

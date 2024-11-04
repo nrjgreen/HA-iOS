@@ -24,9 +24,10 @@ final class WatchHomeViewModel: ObservableObject {
     }
 
     func fetchNetworkInfo(completion: (() -> Void)? = nil) {
-        NEHotspotNetwork.fetchCurrent { hotspotNetwork in
-            WatchUserDefaults.shared.set(hotspotNetwork?.ssid, key: .watchSSID)
-            completion?()
+            NEHotspotNetwork.fetchCurrent { hotspotNetwork in
+                WatchUserDefaults.shared.set(hotspotNetwork?.ssid, key: .watchSSID)
+                completion?()
+            }
         }
     }
 }

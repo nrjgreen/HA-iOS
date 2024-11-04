@@ -8,11 +8,11 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "Suivi des bugs sur GitHub";
 "about.help_localize.title" = "Aidez nous à traduire l'application !";
-"about.home_assistant_on_facebook.title" = "Home Assistant sur Facebook";
-"about.home_assistant_on_twitter.title" = "Home Assistant sur Twitter";
-"about.logo.app_title" = "Home Assistant Companion";
+"about.home_assistant_on_facebook.title" = "NRJHub sur Facebook";
+"about.home_assistant_on_twitter.title" = "NRJHub sur Twitter";
+"about.logo.app_title" = "NRJHub Companion";
 "about.logo.tagline" = "Réveillez votre maison";
-"about.logo.title" = "Home Assistant";
+"about.logo.title" = "NRJHub";
 "about.review.title" = "Laisser un commentaire";
 "about.title" = "À propos";
 "about.website.title" = "Site web";
@@ -32,8 +32,8 @@
 "actions_configurator.visual_section.scene_hint_footer" = "Vous pouvez également les modifier en personnalisant les attributs de scène: %@";
 "actions_configurator.visual_section.server_defined" = "L'apparence de cette action est contrôlée par la configuration du serveur.";
 "addButtonLabel" = "Ajouter";
-"alerts.action_automation_editor.unavailable.body" = "Pour créer automatiquement une automatisation pour une Action, veuillez mettre à jour votre Home Assistant vers la version 2024.2 à minima";
-"alerts.action_automation_editor.unavailable.title" = "Veuillez mettre à jour Home Assistant";
+"alerts.action_automation_editor.unavailable.body" = "Pour créer automatiquement une automatisation pour une Action, veuillez mettre à jour votre NRJHub vers la version 2024.2 à minima";
+"alerts.action_automation_editor.unavailable.title" = "Veuillez mettre à jour NRJHub";
 "alerts.alert.ok" = "OK";
 "alerts.auth_required.message" = "Le serveur a rejeté vos informations d'identification et vous devez vous reconnecter pour continuer.";
 "alerts.auth_required.title" = "Vous devez vous connecter pour continuer";
@@ -163,7 +163,7 @@
 "error_label" = "Erreur";
 "extensions.map.location.new" = "Nouvel emplacement";
 "extensions.map.location.original" = "Emplacement d’origine";
-"extensions.map.payload_missing_homeassistant.message" = "La trame ne contient pas de dictionnaire homeassistant!";
+"extensions.map.payload_missing_homeassistant.message" = "La trame ne contient pas de dictionnaire NRJHub!";
 "extensions.map.value_missing_or_uncastable.latitude.message" = "La latitude n'a pas été trouvée ou n'a pas pu être convertie en texte !";
 "extensions.map.value_missing_or_uncastable.longitude.message" = "La longitude n'a pas été trouvée ou n'a pas pu être convertie en texte !";
 "extensions.notification_content.error.no_entity_id" = "Aucune entity_id trouvée dans la trame !";
@@ -172,10 +172,10 @@
 "extensions.notification_content.error.request.hls_unavailable" = "Le flux HLS n'est pas disponible";
 "extensions.notification_content.error.request.other" = "Code de statut non-200 (%li)";
 "ha_api.api_error.cant_build_url" = "Impossible de construire l'URL de l'API";
-"ha_api.api_error.invalid_response" = "Réponse invalide reçue de Home Assistant";
+"ha_api.api_error.invalid_response" = "Réponse invalide reçue de NRJHub";
 "ha_api.api_error.manager_not_available" = "HA API Manager n'est pas disponible";
 "ha_api.api_error.mobile_app_component_not_loaded" = "Le composant mobile_app n'est pas chargé ou n'a pas été détecté";
-"ha_api.api_error.must_upgrade_home_assistant" = "Votre version de Home Assistant ( %@ ) est trop ancienne, vous devez effectuer une mise à niveau vers la version minimum %@ pour utiliser l'application.";
+"ha_api.api_error.must_upgrade_home_assistant" = "Votre version de NRJHub ( %@ ) est trop ancienne, vous devez effectuer une mise à niveau vers la version minimum %@ pour utiliser l'application.";
 "ha_api.api_error.not_configured" = "L'API HA n'est pas configurée";
 "ha_api.api_error.unacceptable_status_code" = "Code d'état non recevable %1$li .";
 "ha_api.api_error.unexpected_type" = "Réponse reçue avec résultat de type %1$@ mais type attendu %2$@.";
@@ -228,7 +228,7 @@
 "magic_item.icon_color.title" = "Couleur de l'icône";
 "magic_item.icon_name.title" = "Nom de l'icône";
 "magic_item.item_type.action.list.title" = "iOS Actions";
-"magic_item.item_type.action.list.warning.title" = "We will stop supporting iOS Actions in the future, please consider using Home Assistant scripts or scenes instead.";
+"magic_item.item_type.action.list.warning.title" = "We will stop supporting iOS Actions in the future, please consider using NRJHub scripts or scenes instead.";
 "magic_item.item_type.scene.list.title" = "Scènes";
 "magic_item.item_type.script.list.title" = "Scripts";
 "magic_item.item_type.selection.list.title" = "Type d'élément";
@@ -258,14 +258,14 @@
 "nfc.generic_tag_read" = "Tag lu";
 "nfc.list.description" = "Les balises NFC écrites par l'application afficheront une notification lorsque vous rapprochez votre appareil. L'activation de la notification lancera l'application et déclenchera un événement. \
 \
-Les balises fonctionneront sur tout appareil sur lequel Home Assistant est installé et qui dispose d'un support matériel pour les lire.";
+Les balises fonctionneront sur tout appareil sur lequel NRJHub est installé et qui dispose d'un support matériel pour les lire.";
 "nfc.list.learn_more" = "En savoir plus";
 "nfc.list.read_tag" = "Lire un tag";
 "nfc.list.title" = "Balises NFC";
 "nfc.list.write_tag" = "Écrire un tag";
 "nfc.not_available" = "Le NFC n'est pas disponible sur cet appareil";
 "nfc.read.error.generic_failure" = "Échec de lecture de la balise";
-"nfc.read.error.not_home_assistant" = "Le tag NFC n'est pas un tag Home Assistant";
+"nfc.read.error.not_home_assistant" = "Le tag NFC n'est pas un tag NRJHub";
 "nfc.read.error.tag_invalid" = "Le tag NFC n'est pas valide";
 "nfc.read.start_message" = "Tenez votre %@ près d’une balise NFC";
 "nfc.tag_read" = "Tag NFC lu";
@@ -285,7 +285,7 @@ Les balises fonctionneront sur tout appareil sur lequel Home Assistant est insta
 "notification_service.parser.camera.invalid_entity" = "l'entity_id fourni n'était pas valide.";
 "notification_service.parser.url.invalid_url" = "L'URL indiquée n'était pas valide.";
 "notification_service.parser.url.no_url" = "Aucune URL n'a été fournie.";
-"notifications_configurator.action.rows.authentication_required.footer" = "Lorsque l'utilisateur sélectionne une action avec cette option, le système l'invite à déverrouiller l'appareil. Après le déverrouillage, Home Assistant sera informé de l’action sélectionnée.";
+"notifications_configurator.action.rows.authentication_required.footer" = "Lorsque l'utilisateur sélectionne une action avec cette option, le système l'invite à déverrouiller l'appareil. Après le déverrouillage, NRJHub sera informé de l’action sélectionnée.";
 "notifications_configurator.action.rows.authentication_required.title" = "Identification requise";
 "notifications_configurator.action.rows.destructive.footer" = "Lorsqu'il est activé, le bouton d'action est affiché avec une mise en surbrillance spéciale pour indiquer qu'il effectue une tâche destructive.";
 "notifications_configurator.action.rows.destructive.title" = "Destructeur";
@@ -335,7 +335,7 @@ Les balises fonctionneront sur tout appareil sur lequel Home Assistant est insta
 "onboarding.manual_setup.connect" = "Connecter";
 "onboarding.manual_setup.couldnt_make_url.message" = "La valeur '%@' n'était pas une URL valide.";
 "onboarding.manual_setup.couldnt_make_url.title" = "Impossible de créer une URL";
-"onboarding.manual_setup.description" = "L'URL de votre serveur Home Assistant. Assurez-vous qu'il inclut le protocole et le port.";
+"onboarding.manual_setup.description" = "L'URL de votre serveur NRJHub. Assurez-vous qu'il inclut le protocole et le port.";
 "onboarding.manual_setup.no_scheme.message" = "Faut-il essayer de se connecter en utilisant http:// ou https://?";
 "onboarding.manual_setup.no_scheme.title" = "URL entrée sans schéma";
 "onboarding.manual_setup.title" = "Entrez l'URL";
@@ -344,7 +344,7 @@ Les balises fonctionneront sur tout appareil sur lequel Home Assistant est insta
 "onboarding.permissions.change_later_note" = "Vous pouvez modifier cette autorisation plus tard dans Paramètres";
 "onboarding.permissions.focus.bullet.automations" = "Automatisations liées à l’état de concentration";
 "onboarding.permissions.focus.bullet.instant" = "Mises à jour instantanées lorsque le statut change";
-"onboarding.permissions.focus.description" = "Permettre à Home Assistant de savoir si vous êtes en mode de concentration";
+"onboarding.permissions.focus.description" = "Permettre à NRJHub de savoir si vous êtes en mode de concentration";
 "onboarding.permissions.focus.grant_description" = "Acceptez l’autorisation de concentration afin de créer des capteurs rapportant votre état de concentration, également appelé « ne pas déranger ».";
 "onboarding.permissions.focus.title" = "Concentration";
 "onboarding.permissions.location.bullet.automations" = "Automatisations basées sur la présence";
@@ -356,24 +356,22 @@ Les balises fonctionneront sur tout appareil sur lequel Home Assistant est insta
 "onboarding.permissions.motion.bullet.activity" = "Capteur pour le type d'activité courante";
 "onboarding.permissions.motion.bullet.distance" = "Capteur de distance parcourue";
 "onboarding.permissions.motion.bullet.steps" = "Capteur pour le nombre de pas";
-"onboarding.permissions.motion.description" = "Autoriser l'envoi des données de l'activité de mouvement et du podomètre à Home Assistant";
+"onboarding.permissions.motion.description" = "Autoriser l'envoi des données de l'activité de mouvement et du podomètre à NRJHub";
 "onboarding.permissions.motion.grant_description" = "Autoriser l'autorisation de mouvement pour créer des capteurs pour les données de mouvement et de podomètre.";
 "onboarding.permissions.motion.title" = "Mouvement & Podomètre";
 "onboarding.permissions.notification.bullet.alert" = "Être alerté par les notifications";
 "onboarding.permissions.notification.bullet.badge" = "Mettre à jour le badge de l'icône de l'application";
 "onboarding.permissions.notification.bullet.commands" = "Envoyer des commandes à votre appareil";
-"onboarding.permissions.notification.description" = "Autoriser l'envoi de notifications push depuis votre Home Assistant";
+"onboarding.permissions.notification.description" = "Autoriser l'envoi de notifications push depuis votre NRJHub";
 "onboarding.permissions.notification.grant_description" = "Autorisez l'autorisation de notification pour créer un service de notification pour votre appareil.";
 "onboarding.permissions.notification.title" = "Notifications";
 "onboarding.scanning.discovered_announcement" = "Découvert %@";
 "onboarding.scanning.manual" = "Saisir l'adresse manuellement";
 "onboarding.scanning.manual_hint" = "Vous ne trouvez pas votre serveur?";
 "onboarding.scanning.title" = "Recherche de serveurs";
-"onboarding.welcome.description" = "Cette application se connecte à votre serveur Home Assistant et permet d'intégrer des données sur vous et votre téléphone. \
-\
-Home Assistant est un logiciel de domotique gratuit et open source axé sur le contrôle local et la confidentialité.";
+"onboarding.welcome.description" = "Cette application se connecte à votre serveur NRJHub et permet d'intégrer des données sur vous et votre téléphone.";
 "onboarding.welcome.learn_more" = "Plus d'informations";
-"onboarding.welcome.title" = "Bienvenue dans Home Assistant %@ !";
+"onboarding.welcome.title" = "Bienvenue dans NRJHub %@ !";
 "open_label" = "Ouvert";
 "preview_output" = "Aperçu du résultat";
 "reload_label" = "Recharger";
@@ -392,11 +390,11 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "settings.connection_section.delete_server.title" = "Supprimer le serveur";
 "settings.connection_section.details" = "Détails";
 "settings.connection_section.errors.cannot_remove_last_url" = "Vous ne pouvez pas supprimer l'unique URL disponible.";
-"settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
+"settings.connection_section.external_base_url.placeholder" = "https://nrjhub.myhouse.com";
 "settings.connection_section.external_base_url.title" = "URL externe";
 "settings.connection_section.header" = "Connexion";
-"settings.connection_section.home_assistant_cloud.title" = "Cloud Home Assistant";
-"settings.connection_section.internal_base_url.placeholder" = "exemple : http://homeassistant.local:8123/";
+"settings.connection_section.home_assistant_cloud.title" = "Cloud NRJHub";
+"settings.connection_section.internal_base_url.placeholder" = "exemple : http://nrjhub.local:8123/";
 "settings.connection_section.internal_base_url.title" = "URL interne";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "Ajouter une nouvelle adresse matérielle";
 "settings.connection_section.internal_url_hardware_addresses.footer" = "L'URL interne sera utilisée lorsque l'interface réseau principale a une adresse MAC correspondant à l'une de ces adresses matérielles.";
@@ -406,7 +404,7 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "settings.connection_section.internal_url_ssids.footer" = "L'URL interne sera utilisée lors de la connexion au SSID répertoriés";
 "settings.connection_section.internal_url_ssids.header" = "SSIDs";
 "settings.connection_section.internal_url_ssids.placeholder" = "MonNomDeReseauSympa";
-"settings.connection_section.local_push_description" = "Connectez-vous directement au serveur Home Assistant pour les notifications push lorsque vous utilisez des SSID internes.";
+"settings.connection_section.local_push_description" = "Connectez-vous directement au serveur NRJHub pour les notifications push lorsque vous utilisez des SSID internes.";
 "settings.connection_section.location_send_type.setting.exact" = "Exact";
 "settings.connection_section.location_send_type.setting.never" = "Jamais";
 "settings.connection_section.location_send_type.setting.zone_only" = "Nom de zone uniquement";
@@ -463,7 +461,7 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "settings.location_history.title" = "Historique de localisation";
 "settings.navigation_bar.about_button.title" = "À propos";
 "settings.navigation_bar.title" = "Réglages";
-"settings.reset_section.reset_alert.message" = "Vos paramètres seront réinitialisés, cet appareil ne sera plus enregistré des notifications push et sera supprimé de la configuration d'Home Assistant.";
+"settings.reset_section.reset_alert.message" = "Vos paramètres seront réinitialisés, cet appareil ne sera plus enregistré des notifications push et sera supprimé de la configuration d'NRJHub.";
 "settings.reset_section.reset_alert.progress_message" = "Réinitialisation…";
 "settings.reset_section.reset_alert.title" = "Réinitialiser";
 "settings.reset_section.reset_row.title" = "Réinitialiser";
@@ -471,7 +469,7 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "settings.server_select.page_title" = "Serveur";
 "settings.server_select.title" = "Serveur";
 "settings.status_section.header" = "Statut";
-"settings.status_section.location_name_row.placeholder" = "Mon Home Assistant";
+"settings.status_section.location_name_row.placeholder" = "Mon NRJHub";
 "settings.status_section.location_name_row.title" = "Nom";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Version";
@@ -506,7 +504,7 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "settings_details.general.app_icon.enum.electric_violet" = "Violet électrique";
 "settings_details.general.app_icon.enum.fire_orange" = "Orange de feu";
 "settings_details.general.app_icon.enum.green" = "Vert";
-"settings_details.general.app_icon.enum.ha_blue" = "Home Assistant Bleu";
+"settings_details.general.app_icon.enum.ha_blue" = "NRJHub Bleu";
 "settings_details.general.app_icon.enum.old_beta" = "Ancienne bêta";
 "settings_details.general.app_icon.enum.old_dev" = "Ancienne version de Dev";
 "settings_details.general.app_icon.enum.old_release" = "Ancienne version";
@@ -640,7 +638,7 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "settings_details.notifications.title" = "Notifications";
 "settings_details.privacy.alerts.description" = "Permet de vérifier les alertes importantes telles que les vulnérabilités de sécurité.";
 "settings_details.privacy.alerts.title" = "Alertes";
-"settings_details.privacy.analytics.generic_description" = "Permet la collecte d'informations de base sur votre appareil et les interactions avec l'application. Aucune donnée identifiable par l'utilisateur n'est partagée, y compris vos URL et jetons Home Assistant. Vous devez redémarrer l'application pour que les modifications apportées à ce paramètre prennent effet.";
+"settings_details.privacy.analytics.generic_description" = "Permet la collecte d'informations de base sur votre appareil et les interactions avec l'application. Aucune donnée identifiable par l'utilisateur n'est partagée, y compris vos URL et jetons NRJHub. Vous devez redémarrer l'application pour que les modifications apportées à ce paramètre prennent effet.";
 "settings_details.privacy.analytics.generic_title" = "Analytique";
 "settings_details.privacy.crash_reporting.description" = "Permet un suivi plus approfondi des plantages et autres erreurs dans l'application, ce qui accélère la publication des correctifs. Aucune information identifiable par l'utilisateur n'est envoyée, à l'exception des informations de base sur l'appareil. Vous devez redémarrer l'application pour que les modifications apportées à ce paramètre prennent effet.";
 "settings_details.privacy.crash_reporting.sentry" = "Cette fonction utilise actuellement Sentry comme destination du rapport.";
@@ -683,7 +681,7 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "thread.credentials.screen_title" = "Informations d'identification Thread";
 "thread.credentials.share_credentials.no_credentials_message" = "Assurez-vous que vous êtes connecté avec votre compte iCloud qui est propriétaire d'un domicile dans Apple Home.";
 "thread.credentials.share_credentials.no_credentials_title" = "Vous n'avez aucune information d'identification à partager";
-"thread.credentials.share_credentials_button_title" = "Partager les informations d'identification avec Home Assistant";
+"thread.credentials.share_credentials_button_title" = "Partager les informations d'identification avec NRJHub";
 "thread.extended_pan_id.title" = "Extended PAN ID";
 "thread.management.title" = "Informations d'identification Thread";
 "thread.network_key.title" = "Clé réseau";
@@ -695,7 +693,7 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "thread.store_in_keychain.error.message" = "Failed to store thread credential in keychain, error: %@";
 "thread.store_in_keychain.error.title" = "Échec de l'opération";
 "thread.transter_to_apple.title" = "Transférer vers le trousseau Apple";
-"thread.transter_to_homeassistant.title" = "Transférer vers Home Assistant";
+"thread.transter_to_homeassistant.title" = "Transférer vers NRJHub";
 "token_error.connection_failed" = "La connexion a échoué.";
 "token_error.expired" = "Le jeton a expiré.";
 "token_error.token_unavailable" = "Le jeton n'est pas disponible.";
@@ -725,7 +723,7 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "url_handler.send_location.success.title" = "Emplacement envoyé";
 "url_handler.x_callback_url.error.eventNameMissing" = "eventName doit être défini";
 "url_handler.x_callback_url.error.general" = "Une erreur générale s'est produite";
-"url_handler.x_callback_url.error.serviceMissing" = "service (par exemple, homeassistant.turn_on) doit être défini";
+"url_handler.x_callback_url.error.serviceMissing" = "service (par exemple, nrjhub.turn_on) doit être défini";
 "url_handler.x_callback_url.error.templateMissing" = "Un modèle de rendu doit être défini";
 "username_label" = "Nom d'utilisateur";
 "watch.assist.lack_config.error.title" = "Please configure Assist using iOS companion App";
@@ -941,7 +939,7 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "watch.labels.selected_pipeline.title" = "Pipeline";
 "watch.placeholder_complication_name" = "Espace réservé";
 "watch.settings.no_items.phone.title" = "Aucun élément configuré, veuillez choisir les éléments ci-dessous.";
-"widgets.actions.description" = "Exécutez les actions de Home Assistant.";
+"widgets.actions.description" = "Exécutez les actions de NRJHub.";
 "widgets.actions.not_configured" = "Aucune action configurée";
 "widgets.actions.parameters.action" = "Action";
 "widgets.actions.title" = "Actions";
@@ -950,7 +948,7 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "widgets.assist.title" = "Assist";
 "widgets.assist.unknown_configuration" = "Configurer";
 "widgets.button.reload_timeline" = "Recharger tous les widgets";
-"widgets.controls.assist.description" = "Open Assist in Home Assistant app";
+"widgets.controls.assist.description" = "Open Assist in NRJHub app";
 "widgets.controls.assist.pipeline.placeholder" = "Choisir un canal";
 "widgets.controls.assist.title" = "Assist";
 "widgets.controls.light.description" = "Allumer/éteindre votre lumière";
@@ -966,7 +964,7 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "widgets.controls.scripts.placeholder_title" = "Choose script";
 "widgets.controls.switch.description" = "Allumer/éteindre votre interrupteur";
 "widgets.controls.switch.title" = "Interrupteur";
-"widgets.details.description" = "Afficher les états à l'aide de Home Assistant dans le texte";
+"widgets.details.description" = "Afficher les états à l'aide de NRJHub dans le texte";
 "widgets.details.parameters.action" = "Action";
 "widgets.details.parameters.details_template" = "Details Text Template (only in rectangular family)";
 "widgets.details.parameters.lower_template" = "Lower Text Template";
@@ -974,7 +972,7 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "widgets.details.parameters.server" = "Serveur";
 "widgets.details.parameters.upper_template" = "Upper Text Template";
 "widgets.details.title" = "Détails";
-"widgets.gauge.description" = "Afficher les états numériques de Home Assistant dans une jauge";
+"widgets.gauge.description" = "Afficher les états numériques de NRJHub dans une jauge";
 "widgets.gauge.parameters.action" = "Action";
 "widgets.gauge.parameters.gauge_type" = "Type de jauge";
 "widgets.gauge.parameters.gauge_type.capacity" = "Capacité";
@@ -987,7 +985,7 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "widgets.gauge.parameters.value_template" = "Modèle de valeur (0-1)";
 "widgets.gauge.title" = "Jauge";
 "widgets.lights.description" = "Allumer/éteindre la lumière";
-"widgets.open_page.description" = "Ouvrez une page frontale dans Home Assistant.";
+"widgets.open_page.description" = "Ouvrez une page frontale dans NRJHub.";
 "widgets.open_page.not_configured" = "Aucune page disponible";
 "widgets.open_page.title" = "Ouvrir la page";
 "widgets.reload_widgets.app_intent.description" = "Reload all widgets timelines.";

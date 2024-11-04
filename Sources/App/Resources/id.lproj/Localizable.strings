@@ -8,11 +8,11 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "Pelacak Issue GitHub";
 "about.help_localize.title" = "Bantu menerjemahkan aplikasi!";
-"about.home_assistant_on_facebook.title" = "Home Assistant di Facebook";
-"about.home_assistant_on_twitter.title" = "Home Assistant di Twitter";
-"about.logo.app_title" = "Home Assistant Companion";
+"about.home_assistant_on_facebook.title" = "NRJHub di Facebook";
+"about.home_assistant_on_twitter.title" = "NRJHub di Twitter";
+"about.logo.app_title" = "NRJHub Companion";
 "about.logo.tagline" = "Bangkitkan Rumah Anda";
-"about.logo.title" = "Home Assistant";
+"about.logo.title" = "NRJHub";
 "about.review.title" = "Tinggalkan ulasan";
 "about.title" = "Tentang";
 "about.website.title" = "Situs Web";
@@ -32,8 +32,8 @@
 "actions_configurator.visual_section.scene_hint_footer" = "Anda juga dapat mengubahnya dengan menyesuaikan atribut Skenario: %@";
 "actions_configurator.visual_section.server_defined" = "Tampilan aksi ini dikendalikan oleh konfigurasi server.";
 "addButtonLabel" = "Tambahkan";
-"alerts.action_automation_editor.unavailable.body" = "Untuk membuat otomasi secara otomatis untuk suatu Aksi, perbarui Home Assistant Anda ke setidaknya versi 2024.2";
-"alerts.action_automation_editor.unavailable.title" = "Perbarui Home Assistant";
+"alerts.action_automation_editor.unavailable.body" = "Untuk membuat otomasi secara otomatis untuk suatu Aksi, perbarui NRJHub Anda ke setidaknya versi 2024.2";
+"alerts.action_automation_editor.unavailable.title" = "Perbarui NRJHub";
 "alerts.alert.ok" = "Oke";
 "alerts.auth_required.message" = "Server telah menolak kredensial Anda, dan Anda harus masuk lagi untuk melanjutkan.";
 "alerts.auth_required.title" = "Anda harus masuk untuk melanjutkan";
@@ -172,11 +172,11 @@
 "extensions.notification_content.error.request.hls_unavailable" = "Aliran HLS tidak tersedia";
 "extensions.notification_content.error.request.other" = "Diterima kode status bernilai bukan 200 (%li)";
 "ha_api.api_error.cant_build_url" = "Tidak dapat membangun URL API";
-"ha_api.api_error.invalid_response" = "Menerima respons yang tidak valid dari Home Assistant";
-"ha_api.api_error.manager_not_available" = "Manajer API Home Assistant tidak tersedia";
-"ha_api.api_error.mobile_app_component_not_loaded" = "Komponen mobile_app tidak dimuat. Tambahkan ke konfigurasi Anda, mulai ulang  Home Assistant, dan coba lagi.";
-"ha_api.api_error.must_upgrade_home_assistant" = "Versi Home Assistant (%@) terlalu lawas, Anda harus memutakhirkan ke setidaknya versi %@ untuk menggunakan aplikasi ini.";
-"ha_api.api_error.not_configured" = "API Home Assistant tidak dikonfigurasi";
+"ha_api.api_error.invalid_response" = "Menerima respons yang tidak valid dari NRJHub";
+"ha_api.api_error.manager_not_available" = "Manajer API NRJHub tidak tersedia";
+"ha_api.api_error.mobile_app_component_not_loaded" = "Komponen mobile_app tidak dimuat. Tambahkan ke konfigurasi Anda, mulai ulang  NRJHub, dan coba lagi.";
+"ha_api.api_error.must_upgrade_home_assistant" = "Versi NRJHub (%@) terlalu lawas, Anda harus memutakhirkan ke setidaknya versi %@ untuk menggunakan aplikasi ini.";
+"ha_api.api_error.not_configured" = "API NRJHub tidak dikonfigurasi";
 "ha_api.api_error.unacceptable_status_code" = "Kode status tidak dapat diterima %1$li.";
 "ha_api.api_error.unexpected_type" = "Menerima respons dengan hasil dari tipe %1$@, tetapi tipe yang diharapkan %2$@.";
 "ha_api.api_error.unknown" = "Terjadi kesalahan yang tidak diketahui.";
@@ -228,7 +228,7 @@
 "magic_item.icon_color.title" = "Warna ikon";
 "magic_item.icon_name.title" = "Nama ikon";
 "magic_item.item_type.action.list.title" = "Tindakan iOS";
-"magic_item.item_type.action.list.warning.title" = "Kami akan berhenti mendukung Tindakan iOS di masa mendatang, pertimbangkan untuk menggunakan skrip atau skenario Home Assistant sebagai gantinya.";
+"magic_item.item_type.action.list.warning.title" = "Kami akan berhenti mendukung Tindakan iOS di masa mendatang, pertimbangkan untuk menggunakan skrip atau skenario NRJHub sebagai gantinya.";
 "magic_item.item_type.scene.list.title" = "Skenario";
 "magic_item.item_type.script.list.title" = "Skrip";
 "magic_item.item_type.selection.list.title" = "Jenis item";
@@ -258,14 +258,14 @@
 "nfc.generic_tag_read" = "Baca Tag";
 "nfc.list.description" = "Tag NFC yang ditulis oleh aplikasi akan menampilkan notifikasi saat Anda mendekatkan perangkat Anda. Mengaktifkan notifikasi akan meluncurkan aplikasi dan menjalankan acara. \
 \
-Tag akan berfungsi di semua perangkat apa yang dipasangi Home Assistant, yang memiliki dukungan perangkat keras untuk membacanya.";
+Tag akan berfungsi di semua perangkat apa yang dipasangi NRJHub, yang memiliki dukungan perangkat keras untuk membacanya.";
 "nfc.list.learn_more" = "Pelajari lebih lanjut";
 "nfc.list.read_tag" = "Baca Tag";
 "nfc.list.title" = "Tag NFC";
 "nfc.list.write_tag" = "Tulis Tag";
 "nfc.not_available" = "NFC tidak tersedia di perangkat ini";
 "nfc.read.error.generic_failure" = "Gagal membaca tag";
-"nfc.read.error.not_home_assistant" = "Tag NFC bukanlah tag Home Assistant";
+"nfc.read.error.not_home_assistant" = "Tag NFC bukanlah tag NRJHub";
 "nfc.read.error.tag_invalid" = "Tag NFC tidak valid";
 "nfc.read.start_message" = "Dekatkan %@ ke tag NFC";
 "nfc.tag_read" = "Pembacaan Tag NFC";
@@ -285,7 +285,7 @@ Tag akan berfungsi di semua perangkat apa yang dipasangi Home Assistant, yang me
 "notification_service.parser.camera.invalid_entity" = "Nilai entity_id yang diberikan tidak valid.";
 "notification_service.parser.url.invalid_url" = "URL yang diberikan tidak valid.";
 "notification_service.parser.url.no_url" = "Tidak ada URL yang diberikan.";
-"notifications_configurator.action.rows.authentication_required.footer" = "Ketika pengguna memilih tindakan dengan opsi ini, sistem meminta pengguna untuk membuka kunci perangkat. Setelah membuka kunci, Home Assistant akan diberi tahu tentang tindakan yang dipilih.";
+"notifications_configurator.action.rows.authentication_required.footer" = "Ketika pengguna memilih tindakan dengan opsi ini, sistem meminta pengguna untuk membuka kunci perangkat. Setelah membuka kunci, NRJHub akan diberi tahu tentang tindakan yang dipilih.";
 "notifications_configurator.action.rows.authentication_required.title" = "Diperlukan Autentikasi";
 "notifications_configurator.action.rows.destructive.footer" = "Saat diaktifkan, tombol tindakan ditampilkan dengan penyorotan khusus untuk menunjukkan bahwa tombol akan melakukan tugas yang merusak.";
 "notifications_configurator.action.rows.destructive.title" = "Merusak";
@@ -335,7 +335,7 @@ Tag akan berfungsi di semua perangkat apa yang dipasangi Home Assistant, yang me
 "onboarding.manual_setup.connect" = "Hubungkan";
 "onboarding.manual_setup.couldnt_make_url.message" = "Nilai '%@' bukan URL yang valid.";
 "onboarding.manual_setup.couldnt_make_url.title" = "Tidak dapat membuat URL";
-"onboarding.manual_setup.description" = "URL server Home Assistant Anda. Pastikan untuk menyertakan protokol dan port.";
+"onboarding.manual_setup.description" = "URL server NRJHub Anda. Pastikan untuk menyertakan protokol dan port.";
 "onboarding.manual_setup.no_scheme.message" = "Haruskah kami mencoba terhubung menggunakan http:// atau https://?";
 "onboarding.manual_setup.no_scheme.title" = "URL dimasukkan tanpa skema";
 "onboarding.manual_setup.title" = "Masukkan URL";
@@ -344,7 +344,7 @@ Tag akan berfungsi di semua perangkat apa yang dipasangi Home Assistant, yang me
 "onboarding.permissions.change_later_note" = "Anda dapat mengubah izin ini nanti di Pengaturan";
 "onboarding.permissions.focus.bullet.automations" = "Otomasi berbasis fokus";
 "onboarding.permissions.focus.bullet.instant" = "Pembaruan instan saat status berubah";
-"onboarding.permissions.focus.description" = "Izinkan apakah Anda dalam mode fokus untuk dikirim ke Home Assistant";
+"onboarding.permissions.focus.description" = "Izinkan apakah Anda dalam mode fokus untuk dikirim ke NRJHub";
 "onboarding.permissions.focus.grant_description" = "Izinkan izin fokus untuk membuat sensor untuk status fokus Anda, juga dikenal sebagai jangan ganggu.";
 "onboarding.permissions.focus.title" = "Fokus";
 "onboarding.permissions.location.bullet.automations" = "Otomasi berbasis kehadiran";
@@ -356,24 +356,22 @@ Tag akan berfungsi di semua perangkat apa yang dipasangi Home Assistant, yang me
 "onboarding.permissions.motion.bullet.activity" = "Sensor untuk jenis aktivitas saat ini";
 "onboarding.permissions.motion.bullet.distance" = "Sensor untuk jarak bergerak";
 "onboarding.permissions.motion.bullet.steps" = "Sensor untuk jumlah langkah";
-"onboarding.permissions.motion.description" = "Izinkan data aktivitas gerak dan pedometer dikirim ke Home Assistant";
+"onboarding.permissions.motion.description" = "Izinkan data aktivitas gerak dan pedometer dikirim ke NRJHub";
 "onboarding.permissions.motion.grant_description" = "Izinkan izin gerakan untuk membuat sensor untuk data gerak dan pedometer.";
 "onboarding.permissions.motion.title" = "Gerak & Pedometer";
 "onboarding.permissions.notification.bullet.alert" = "Dapatkan peringatan dari notifikasi";
 "onboarding.permissions.notification.bullet.badge" = "Perbarui lencana ikon aplikasi";
 "onboarding.permissions.notification.bullet.commands" = "Kirim perintah ke perangkat Anda";
-"onboarding.permissions.notification.description" = "Izinkan notifikasi push dikirim dari Home Assistant Anda";
+"onboarding.permissions.notification.description" = "Izinkan notifikasi push dikirim dari NRJHub Anda";
 "onboarding.permissions.notification.grant_description" = "Izinkan izin notifikasi untuk membuat layanan notifikasi untuk perangkat Anda.";
 "onboarding.permissions.notification.title" = "Notifikasi";
 "onboarding.scanning.discovered_announcement" = "Ditemukan: %@";
 "onboarding.scanning.manual" = "Masukkan Alamat Secara Manual";
 "onboarding.scanning.manual_hint" = "Tidak menemukan server Anda?";
 "onboarding.scanning.title" = "Memindai Server";
-"onboarding.welcome.description" = "Aplikasi ini terhubung ke server Home Assistant Anda dan memungkinkan integrasi data tentang Anda dan ponsel Anda.\
-\
-Home Assistant adalah perangkat lunak otomasi rumah gratis dan sumber terbuka dengan fokus pada kontrol dan privasi lokal.";
+"onboarding.welcome.description" = "Aplikasi ini terhubung ke server NRJHub Anda dan memungkinkan integrasi data tentang Anda dan ponsel Anda.";
 "onboarding.welcome.learn_more" = "Pelajari lebih lanjut";
-"onboarding.welcome.title" = "Selamat datang di Home Assistant %@!";
+"onboarding.welcome.title" = "Selamat datang di NRJHub %@!";
 "open_label" = "Buka";
 "preview_output" = "Pratinjau Output";
 "reload_label" = "Muat Ulang";
@@ -395,8 +393,8 @@ Home Assistant adalah perangkat lunak otomasi rumah gratis dan sumber terbuka de
 "settings.connection_section.external_base_url.placeholder" = "https://homeassistant.example.com";
 "settings.connection_section.external_base_url.title" = "URL Eksternal";
 "settings.connection_section.header" = "Koneksi";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud";
-"settings.connection_section.internal_base_url.placeholder" = "mis. http://homeassistant.local:8123/";
+"settings.connection_section.home_assistant_cloud.title" = "NRJHub Cloud";
+"settings.connection_section.internal_base_url.placeholder" = "mis. http://nrjhub.local:8123/";
 "settings.connection_section.internal_base_url.title" = "URL Internal";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "Tambahkan Alamat Perangkat Keras Baru";
 "settings.connection_section.internal_url_hardware_addresses.footer" = "URL internal akan digunakan jika antarmuka jaringan utama memiliki alamat MAC yang cocok dengan salah satu alamat perangkat keras ini.";
@@ -406,7 +404,7 @@ Home Assistant adalah perangkat lunak otomasi rumah gratis dan sumber terbuka de
 "settings.connection_section.internal_url_ssids.footer" = "URL internal akan digunakan ketika terhubung ke SSID yang terdaftar";
 "settings.connection_section.internal_url_ssids.header" = "SSID";
 "settings.connection_section.internal_url_ssids.placeholder" = "NamaWiFiLucukSekali";
-"settings.connection_section.local_push_description" = "Sambungkan langsung ke server Home Assistant untuk notifikasi push saat menggunakan SSID internal.";
+"settings.connection_section.local_push_description" = "Sambungkan langsung ke server NRJHub untuk notifikasi push saat menggunakan SSID internal.";
 "settings.connection_section.location_send_type.setting.exact" = "Tepat";
 "settings.connection_section.location_send_type.setting.never" = "Jangan Pernah";
 "settings.connection_section.location_send_type.setting.zone_only" = "Hanya Nama Zona";
@@ -463,7 +461,7 @@ Home Assistant adalah perangkat lunak otomasi rumah gratis dan sumber terbuka de
 "settings.location_history.title" = "Riwayat Lokasi";
 "settings.navigation_bar.about_button.title" = "Tentang";
 "settings.navigation_bar.title" = "Pengaturan";
-"settings.reset_section.reset_alert.message" = "Pengaturan Anda akan disetel ulang dan perangkat ini akan dibatalkan pendaftarannya dari notifikasi push serta dihapus dari konfigurasi Home Assistant Anda.";
+"settings.reset_section.reset_alert.message" = "Pengaturan Anda akan disetel ulang dan perangkat ini akan dibatalkan pendaftarannya dari notifikasi push serta dihapus dari konfigurasi NRJHub Anda.";
 "settings.reset_section.reset_alert.progress_message" = "Menyetel ulang…";
 "settings.reset_section.reset_alert.title" = "Setel Ulang";
 "settings.reset_section.reset_row.title" = "Setel Ulang";
@@ -471,7 +469,7 @@ Home Assistant adalah perangkat lunak otomasi rumah gratis dan sumber terbuka de
 "settings.server_select.page_title" = "Server";
 "settings.server_select.title" = "Server";
 "settings.status_section.header" = "Status";
-"settings.status_section.location_name_row.placeholder" = "Home Assistant Saya";
+"settings.status_section.location_name_row.placeholder" = "NRJHub Saya";
 "settings.status_section.location_name_row.title" = "Nama";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Versi";
@@ -506,7 +504,7 @@ Home Assistant adalah perangkat lunak otomasi rumah gratis dan sumber terbuka de
 "settings_details.general.app_icon.enum.electric_violet" = "Ungu Elektrik";
 "settings_details.general.app_icon.enum.fire_orange" = "Jingga Membara";
 "settings_details.general.app_icon.enum.green" = "Hijau";
-"settings_details.general.app_icon.enum.ha_blue" = "Home Assistant Blue";
+"settings_details.general.app_icon.enum.ha_blue" = "NRJHub Blue";
 "settings_details.general.app_icon.enum.old_beta" = "Beta Lawas";
 "settings_details.general.app_icon.enum.old_dev" = "Pengembang Lawas";
 "settings_details.general.app_icon.enum.old_release" = "Rilis Lawas";
@@ -640,7 +638,7 @@ Home Assistant adalah perangkat lunak otomasi rumah gratis dan sumber terbuka de
 "settings_details.notifications.title" = "Notifikasi";
 "settings_details.privacy.alerts.description" = "Izinkan memeriksa peringatan penting, misalnya kerentanan keamanan.";
 "settings_details.privacy.alerts.title" = "Peringatan";
-"settings_details.privacy.analytics.generic_description" = "Mengizinkan pengumpulan informasi dasar tentang perangkat Anda dan interaksi dengan aplikasi. Tidak ada data yang dapat diidentifikasi pengguna yang dibagikan, termasuk URL dan token Home Assistant Anda. Anda harus memulai ulang aplikasi agar perubahan pada setelan ini diterapkan.";
+"settings_details.privacy.analytics.generic_description" = "Mengizinkan pengumpulan informasi dasar tentang perangkat Anda dan interaksi dengan aplikasi. Tidak ada data yang dapat diidentifikasi pengguna yang dibagikan, termasuk URL dan token NRJHub Anda. Anda harus memulai ulang aplikasi agar perubahan pada setelan ini diterapkan.";
 "settings_details.privacy.analytics.generic_title" = "Analitika";
 "settings_details.privacy.crash_reporting.description" = "Memungkinkan pelacakan crash dan kesalahan lain yang lebih dalam di aplikasi, dengan tujuan untuk mempercepat publikasi perbaikan yang lebih cepat. Tidak ada informasi yang dapat diidentifikasi pengguna yang dikirim, selain informasi perangkat dasar. Anda harus memulai ulang aplikasi agar perubahan pada pengaturan ini berlaku.";
 "settings_details.privacy.crash_reporting.sentry" = "Fitur ini menggunakan Sentry sebagai tujuan pelaporan saat ini.";
@@ -683,7 +681,7 @@ Home Assistant adalah perangkat lunak otomasi rumah gratis dan sumber terbuka de
 "thread.credentials.screen_title" = "Kredensial Thread";
 "thread.credentials.share_credentials.no_credentials_message" = "Pastikan Anda masuk dengan akun iCloud Anda yang unakan sebagai pemilik Rumah di Apple Home.";
 "thread.credentials.share_credentials.no_credentials_title" = "Anda tidak memiliki kredensial untuk dibagikan";
-"thread.credentials.share_credentials_button_title" = "Bagikan kredensial dengan Home Assistant";
+"thread.credentials.share_credentials_button_title" = "Bagikan kredensial dengan NRJHub";
 "thread.extended_pan_id.title" = "ID PAN yang diperluas";
 "thread.management.title" = "Kredensial Thread";
 "thread.network_key.title" = "Kunci Jaringan";
@@ -695,7 +693,7 @@ Home Assistant adalah perangkat lunak otomasi rumah gratis dan sumber terbuka de
 "thread.store_in_keychain.error.message" = "Gagal menyimpan kredensial utas di rantai kunci, kesalahan: %@";
 "thread.store_in_keychain.error.title" = "Operasi gagal";
 "thread.transter_to_apple.title" = "Transfer ke Rantai Kunci Apple";
-"thread.transter_to_homeassistant.title" = "Transfer ke Home Assistant";
+"thread.transter_to_homeassistant.title" = "Transfer ke NRJHub";
 "token_error.connection_failed" = "Koneksi gagal.";
 "token_error.expired" = "Token kedaluwarsa.";
 "token_error.token_unavailable" = "Token tidak tersedia.";
@@ -941,7 +939,7 @@ Home Assistant adalah perangkat lunak otomasi rumah gratis dan sumber terbuka de
 "watch.labels.selected_pipeline.title" = "Saluran";
 "watch.placeholder_complication_name" = "Penampung";
 "watch.settings.no_items.phone.title" = "Tidak ada item yang dikonfigurasi, pilih item di bawah ini.";
-"widgets.actions.description" = "Luncurkan aksi Home Assistant";
+"widgets.actions.description" = "Luncurkan aksi NRJHub";
 "widgets.actions.not_configured" = "Tidak Ada Aksi yang Dikonfigurasi";
 "widgets.actions.parameters.action" = "Aksi";
 "widgets.actions.title" = "Aksi";
@@ -950,7 +948,7 @@ Home Assistant adalah perangkat lunak otomasi rumah gratis dan sumber terbuka de
 "widgets.assist.title" = "Assist";
 "widgets.assist.unknown_configuration" = "Konfigurasikan";
 "widgets.button.reload_timeline" = "Muat ulang semua widget";
-"widgets.controls.assist.description" = "Buka Assist di aplikasi Home Assistant";
+"widgets.controls.assist.description" = "Buka Assist di aplikasi NRJHub";
 "widgets.controls.assist.pipeline.placeholder" = "Pilih saluran";
 "widgets.controls.assist.title" = "Assist";
 "widgets.controls.light.description" = "Nyalakan/matikan lampu Anda";
@@ -966,7 +964,7 @@ Home Assistant adalah perangkat lunak otomasi rumah gratis dan sumber terbuka de
 "widgets.controls.scripts.placeholder_title" = "Pilih skrip";
 "widgets.controls.switch.description" = "Nyalakan/matikan sakelar Anda";
 "widgets.controls.switch.title" = "Sakelar";
-"widgets.details.description" = "Menampilkan status dari Home Assistant dalam bentuk teks";
+"widgets.details.description" = "Menampilkan status dari NRJHub dalam bentuk teks";
 "widgets.details.parameters.action" = "Aksi";
 "widgets.details.parameters.details_template" = "Templat Teks Detail (hanya dalam format persegi panjang)";
 "widgets.details.parameters.lower_template" = "Templat Teks Bawah";
@@ -974,7 +972,7 @@ Home Assistant adalah perangkat lunak otomasi rumah gratis dan sumber terbuka de
 "widgets.details.parameters.server" = "Server";
 "widgets.details.parameters.upper_template" = "Templat Teks Atas";
 "widgets.details.title" = "Detail";
-"widgets.gauge.description" = "Menampilkan status numerik dari Home Assistant bentuk gauge";
+"widgets.gauge.description" = "Menampilkan status numerik dari NRJHub bentuk gauge";
 "widgets.gauge.parameters.action" = "Aksi";
 "widgets.gauge.parameters.gauge_type" = "Jenis Gauge";
 "widgets.gauge.parameters.gauge_type.capacity" = "Kapasitas";
@@ -987,7 +985,7 @@ Home Assistant adalah perangkat lunak otomasi rumah gratis dan sumber terbuka de
 "widgets.gauge.parameters.value_template" = "Templat Nilai (0-1)";
 "widgets.gauge.title" = "Gauge";
 "widgets.lights.description" = "Nyalakan/matikan lampu";
-"widgets.open_page.description" = "Buka halaman antarmuka di Home Assistant.";
+"widgets.open_page.description" = "Buka halaman antarmuka di NRJHub.";
 "widgets.open_page.not_configured" = "Tidak Ada Halaman yang Tersedia";
 "widgets.open_page.title" = "Buka Halaman";
 "widgets.reload_widgets.app_intent.description" = "Muat ulang semua widget linimasa.";

@@ -8,11 +8,11 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "GitHub Issue Tracker";
 "about.help_localize.title" = "Hjelp å oversette appen!";
-"about.home_assistant_on_facebook.title" = "Home Assistant på Facebook";
-"about.home_assistant_on_twitter.title" = "Home Assistant på Twitter";
-"about.logo.app_title" = "Home Assistant Companion";
+"about.home_assistant_on_facebook.title" = "NRJHub på Facebook";
+"about.home_assistant_on_twitter.title" = "NRJHub på Twitter";
+"about.logo.app_title" = "NRJHub Companion";
 "about.logo.tagline" = "Ta kontroll over hjemmet ditt";
-"about.logo.title" = "Home Assistant";
+"about.logo.title" = "NRJHub";
 "about.review.title" = "Legg igjen en anmeldelse";
 "about.title" = "Om";
 "about.website.title" = "Nettsted";
@@ -32,8 +32,8 @@
 "actions_configurator.visual_section.scene_hint_footer" = "Du kan også endre disse ved å tilpasse Scene-attributtene: %@";
 "actions_configurator.visual_section.server_defined" = "Utseendet til denne handlingen styres av serverkonfigurasjonen.";
 "addButtonLabel" = "Legg til";
-"alerts.action_automation_editor.unavailable.body" = "To automatically create an automation for an Action please update your Home Assistant to at least version 2024.2";
-"alerts.action_automation_editor.unavailable.title" = "Vennligst oppdater Home Assistant";
+"alerts.action_automation_editor.unavailable.body" = "To automatically create an automation for an Action please update your NRJHub to at least version 2024.2";
+"alerts.action_automation_editor.unavailable.title" = "Vennligst oppdater NRJHub";
 "alerts.alert.ok" = "OK";
 "alerts.auth_required.message" = "Serveren har avvist legitimasjonen din, du må logge deg på igjen for å fortsette.";
 "alerts.auth_required.title" = "Du må logge inn for å fortsette";
@@ -163,7 +163,7 @@
 "error_label" = "Feil";
 "extensions.map.location.new" = "Ny plassering";
 "extensions.map.location.original" = "Opprinnelig plassering";
-"extensions.map.payload_missing_homeassistant.message" = "Payload inneholdt ikke en ordbok fra Homeassistant!";
+"extensions.map.payload_missing_homeassistant.message" = "Payload inneholdt ikke en ordbok fra NRJHub!";
 "extensions.map.value_missing_or_uncastable.latitude.message" = "Breddegrad ble ikke funnet eller kunne ikke bli støpt til streng!";
 "extensions.map.value_missing_or_uncastable.longitude.message" = "Lengdegrad ble ikke funnet eller kunne ikke bli støpt til streng!";
 "extensions.notification_content.error.no_entity_id" = "Ingen datafelter funnet av enhet_id";
@@ -172,10 +172,10 @@
 "extensions.notification_content.error.request.hls_unavailable" = "HLS-strøm er ikke tilgjengelig";
 "extensions.notification_content.error.request.other" = "Mottok non-200 statuskode (%li)";
 "ha_api.api_error.cant_build_url" = "Kan ikke lage API-nettadressen";
-"ha_api.api_error.invalid_response" = "Mottatt ugyldig tilbakemelding fra Home Assistant";
+"ha_api.api_error.invalid_response" = "Mottatt ugyldig tilbakemelding fra NRJHub";
 "ha_api.api_error.manager_not_available" = "HA API Manager er ikke tilgjengelig";
-"ha_api.api_error.mobile_app_component_not_loaded" = "Komponenten mobile_app er ikke lastet inn. Legg den til i konfigurasjonen din, start Home Assistant på nytt og prøv igjen.";
-"ha_api.api_error.must_upgrade_home_assistant" = "Home Assistant-versjonen (%@) er for gammel, du må oppgradere til minst versjon %@ for å kunne bruke appen.";
+"ha_api.api_error.mobile_app_component_not_loaded" = "Komponenten mobile_app er ikke lastet inn. Legg den til i konfigurasjonen din, start NRJHub på nytt og prøv igjen.";
+"ha_api.api_error.must_upgrade_home_assistant" = "NRJHub-versjonen (%@) er for gammel, du må oppgradere til minst versjon %@ for å kunne bruke appen.";
 "ha_api.api_error.not_configured" = "HA API er ikke konfigurert";
 "ha_api.api_error.unacceptable_status_code" = "Uakseptabel statuskode %1$li .";
 "ha_api.api_error.unexpected_type" = "Mottatt svar med resultat av type %1$@ men forventet type %2$@ .";
@@ -228,7 +228,7 @@
 "magic_item.icon_color.title" = "Icon color";
 "magic_item.icon_name.title" = "Icon name";
 "magic_item.item_type.action.list.title" = "iOS Actions";
-"magic_item.item_type.action.list.warning.title" = "We will stop supporting iOS Actions in the future, please consider using Home Assistant scripts or scenes instead.";
+"magic_item.item_type.action.list.warning.title" = "We will stop supporting iOS Actions in the future, please consider using NRJHub scripts or scenes instead.";
 "magic_item.item_type.scene.list.title" = "Scenes";
 "magic_item.item_type.script.list.title" = "Scripts";
 "magic_item.item_type.selection.list.title" = "Item type";
@@ -258,14 +258,14 @@
 "nfc.generic_tag_read" = "Tagg Les";
 "nfc.list.description" = "NFC-tagger skrevet av appen viser et varsel når du tar med enheten i nærheten av dem. Aktivering av varselet vil starte appen og utløse en hendelse.\
 \
-Koder vil fungere på alle enheter med Home Assistant installert som har maskinvarestøtte for å lese dem.";
+Koder vil fungere på alle enheter med NRJHub installert som har maskinvarestøtte for å lese dem.";
 "nfc.list.learn_more" = "Lære mer";
 "nfc.list.read_tag" = "Les tag";
 "nfc.list.title" = "NFC-tagger";
 "nfc.list.write_tag" = "Skriv tag";
 "nfc.not_available" = "NFC er ikke tilgjengelig på denne enheten";
 "nfc.read.error.generic_failure" = "Kunne ikke lese taggen";
-"nfc.read.error.not_home_assistant" = "NFC-taggen er ikke et Home Assistant-tagg";
+"nfc.read.error.not_home_assistant" = "NFC-taggen er ikke et NRJHub-tagg";
 "nfc.read.error.tag_invalid" = "NFC-taggen er ugyldig";
 "nfc.read.start_message" = "Hold %@ nærheten av en NFC-taggen";
 "nfc.tag_read" = "NFC Tag Les";
@@ -285,7 +285,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "notification_service.parser.camera.invalid_entity" = "enhets_id oppgitt var ugyldig.";
 "notification_service.parser.url.invalid_url" = "Den angitte URL-adressen var ugyldig.";
 "notification_service.parser.url.no_url" = "Ingen URL ble oppgitt.";
-"notifications_configurator.action.rows.authentication_required.footer" = "Når brukeren velger en handling med dette alternativet, vil systemet be brukeren om å låse opp enheten. Etter opplåsing vil Home Assistant bli varslet om den valgte handlingen.";
+"notifications_configurator.action.rows.authentication_required.footer" = "Når brukeren velger en handling med dette alternativet, vil systemet be brukeren om å låse opp enheten. Etter opplåsing vil NRJHub bli varslet om den valgte handlingen.";
 "notifications_configurator.action.rows.authentication_required.title" = "Godkjenning kreves";
 "notifications_configurator.action.rows.destructive.footer" = "Når aktivert, vises handlingsknappen med spesiell markering for å indikere at den utfører en ødeleggende oppgave.";
 "notifications_configurator.action.rows.destructive.title" = "Destruktive";
@@ -335,7 +335,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "onboarding.manual_setup.connect" = "Koble";
 "onboarding.manual_setup.couldnt_make_url.message" = "Verdien %@ var ikke en gyldig URL-adresse.";
 "onboarding.manual_setup.couldnt_make_url.title" = "Kan ikke opprette en URL-adresse";
-"onboarding.manual_setup.description" = "Nettadressen til Home Assistant -serveren. Sørg for at den inneholder protokollen og porten.";
+"onboarding.manual_setup.description" = "Nettadressen til NRJHub -serveren. Sørg for at den inneholder protokollen og porten.";
 "onboarding.manual_setup.no_scheme.message" = "Skal vi prøve å koble til ved hjelp av http:// eller https://?";
 "onboarding.manual_setup.no_scheme.title" = "URL angitt uten skjema";
 "onboarding.manual_setup.title" = "Skriv inn URL";
@@ -344,7 +344,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "onboarding.permissions.change_later_note" = "Du kan endre denne tillatelsen senere i Innstillinger";
 "onboarding.permissions.focus.bullet.automations" = "Fokusbaserte automatiseringer";
 "onboarding.permissions.focus.bullet.instant" = "Øyeblikkelige oppdateringer når status endres";
-"onboarding.permissions.focus.description" = "Tillat om du er i fokusmodus for å bli sendt til Home Assistant";
+"onboarding.permissions.focus.description" = "Tillat om du er i fokusmodus for å bli sendt til NRJHub";
 "onboarding.permissions.focus.grant_description" = "Tillat fokustillatelse for å lage sensorer for fokusstatusen din, også kjent som ikke-forstyrr.";
 "onboarding.permissions.focus.title" = "Fokus";
 "onboarding.permissions.location.bullet.automations" = "Tilstedeværelsesbaserte automatiseringer";
@@ -356,24 +356,22 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "onboarding.permissions.motion.bullet.activity" = "Sensor for gjeldende aktivitetstype";
 "onboarding.permissions.motion.bullet.distance" = "Sensor for distanse flyttet";
 "onboarding.permissions.motion.bullet.steps" = "Sensor for trinntelling";
-"onboarding.permissions.motion.description" = "Tillat at bevegelsesaktivitet og skrittellerdata sendes til Home Assistant";
+"onboarding.permissions.motion.description" = "Tillat at bevegelsesaktivitet og skrittellerdata sendes til NRJHub";
 "onboarding.permissions.motion.grant_description" = "Tillat bevegelsestillatelse for å lage sensorer for bevegelses- og skrittellerdata.";
 "onboarding.permissions.motion.title" = "Bevegelse og skritteller";
 "onboarding.permissions.notification.bullet.alert" = "Bli varslet fra meldinger";
 "onboarding.permissions.notification.bullet.badge" = "Oppdater appikonemerke";
 "onboarding.permissions.notification.bullet.commands" = "Send kommandoer til enheten din";
-"onboarding.permissions.notification.description" = "Tillat at pushvarsler sendes fra Home Assistant";
+"onboarding.permissions.notification.description" = "Tillat at pushvarsler sendes fra NRJHub";
 "onboarding.permissions.notification.grant_description" = "Tillat varslingstillatelse for å opprette en varslingstjeneste for enheten din.";
 "onboarding.permissions.notification.title" = "Varslinger";
 "onboarding.scanning.discovered_announcement" = "Oppdaget: %@";
 "onboarding.scanning.manual" = "Skriv inn adressen manuelt";
 "onboarding.scanning.manual_hint" = "Finner du ikke serveren din?";
 "onboarding.scanning.title" = "Søker etter servere";
-"onboarding.welcome.description" = "Denne appen kobles til Home Assistant -serveren og lar deg integrere data om deg og telefonen. \
-\
- Home Assistant er gratis og åpen kildekode hjemmeautomatiseringsprogramvare med fokus på lokal kontroll og personvern.";
+"onboarding.welcome.description" = "Denne appen kobles til NRJHub -serveren og lar deg integrere data om deg og telefonen.";
 "onboarding.welcome.learn_more" = "Learn more";
-"onboarding.welcome.title" = "Velkommen til Home Assistant %@ !";
+"onboarding.welcome.title" = "Velkommen til NRJHub %@ !";
 "open_label" = "Åpen";
 "preview_output" = "Forhåndsvisning";
 "reload_label" = "Reload";
@@ -392,11 +390,11 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "settings.connection_section.delete_server.title" = "Slett server";
 "settings.connection_section.details" = "Detaljer";
 "settings.connection_section.errors.cannot_remove_last_url" = "Du kan ikke fjerne bare tilgjengelig URL.";
-"settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
+"settings.connection_section.external_base_url.placeholder" = "https://NRJHub.myhouse.com";
 "settings.connection_section.external_base_url.title" = "Ekstern URL";
 "settings.connection_section.header" = "Tilkobling";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud";
-"settings.connection_section.internal_base_url.placeholder" = "f.eks. http://homeassistant.local:8123/";
+"settings.connection_section.home_assistant_cloud.title" = "NRJHub Cloud";
+"settings.connection_section.internal_base_url.placeholder" = "f.eks. http://NRJHub.local:8123/";
 "settings.connection_section.internal_base_url.title" = "Intern URL";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "Legg til ny maskinvareadresse";
 "settings.connection_section.internal_url_hardware_addresses.footer" = "Intern URL vil bli brukt når det primære nettverksgrensesnittet har en MAC-adresse som samsvarer med en av disse maskinvareadressene.";
@@ -406,7 +404,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "settings.connection_section.internal_url_ssids.footer" = "Intern URL-adresse vil bli brukt når du er koblet til oppførte SSID-er";
 "settings.connection_section.internal_url_ssids.header" = "SSIDer";
 "settings.connection_section.internal_url_ssids.placeholder" = "MittRareNettverksNavn";
-"settings.connection_section.local_push_description" = "Koble direkte til Home Assistant-serveren for push-varsler når du er på interne SSIDer.";
+"settings.connection_section.local_push_description" = "Koble direkte til NRJHub-serveren for push-varsler når du er på interne SSIDer.";
 "settings.connection_section.location_send_type.setting.exact" = "Nøyaktig";
 "settings.connection_section.location_send_type.setting.never" = "Aldri";
 "settings.connection_section.location_send_type.setting.zone_only" = "Kun sonenavn";
@@ -463,7 +461,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "settings.location_history.title" = "Posisjonshistorikk";
 "settings.navigation_bar.about_button.title" = "Om";
 "settings.navigation_bar.title" = "Innstillinger";
-"settings.reset_section.reset_alert.message" = "Innstillingene tilbakestilles og denne enheten vil bli avregistrert fra push-varsling samt fjernet fra Home Assistant konfigurasjonen.";
+"settings.reset_section.reset_alert.message" = "Innstillingene tilbakestilles og denne enheten vil bli avregistrert fra push-varsling samt fjernet fra NRJHub konfigurasjonen.";
 "settings.reset_section.reset_alert.progress_message" = "Tilbakestiller…";
 "settings.reset_section.reset_alert.title" = "Tilbakestill";
 "settings.reset_section.reset_row.title" = "Tilbakestille";
@@ -471,7 +469,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "settings.server_select.page_title" = "Server";
 "settings.server_select.title" = "Server";
 "settings.status_section.header" = "Status";
-"settings.status_section.location_name_row.placeholder" = "Min Home Assistant";
+"settings.status_section.location_name_row.placeholder" = "Min NRJHub";
 "settings.status_section.location_name_row.title" = "Navn";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Versjon";
@@ -506,7 +504,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "settings_details.general.app_icon.enum.electric_violet" = "Elektrisk Fiolett";
 "settings_details.general.app_icon.enum.fire_orange" = "Brann Oransje";
 "settings_details.general.app_icon.enum.green" = "Grønn";
-"settings_details.general.app_icon.enum.ha_blue" = "Home Assistant Blå";
+"settings_details.general.app_icon.enum.ha_blue" = "NRJHub Blå";
 "settings_details.general.app_icon.enum.old_beta" = "Gammel Beta";
 "settings_details.general.app_icon.enum.old_dev" = "Gammel Beta";
 "settings_details.general.app_icon.enum.old_release" = "Gammel Versjonen";
@@ -640,7 +638,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "settings_details.notifications.title" = "Varslingsinnstillinger";
 "settings_details.privacy.alerts.description" = "Tillater å se etter viktige varsler som sikkerhetsproblemer.";
 "settings_details.privacy.alerts.title" = "Varsler";
-"settings_details.privacy.analytics.generic_description" = "Tillater samling av grunnleggende informasjon om enheten din og interaksjoner med appen. Ingen brukeridentifiserbare data deles, inkludert URL-adresser og symboler for Home Assistant. Du må starte appen på nytt for at endringer i denne innstillingen skal tre i kraft.";
+"settings_details.privacy.analytics.generic_description" = "Tillater samling av grunnleggende informasjon om enheten din og interaksjoner med appen. Ingen brukeridentifiserbare data deles, inkludert URL-adresser og symboler for NRJHub. Du må starte appen på nytt for at endringer i denne innstillingen skal tre i kraft.";
 "settings_details.privacy.analytics.generic_title" = "Analytics";
 "settings_details.privacy.crash_reporting.description" = "Gjør det mulig å spore krasj og andre feil i appen dypere, noe som fører til at raskere reparasjoner publiseres. Ingen brukeridentifiserbar informasjon sendes, annet enn grunnleggende enhetsinformasjon. Du må starte appen på nytt for at endringer i denne innstillingen skal tre i kraft.";
 "settings_details.privacy.crash_reporting.sentry" = "Denne funksjonen bruker Sentry for øyeblikket som rapportdestinasjon.";
@@ -683,7 +681,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "thread.credentials.screen_title" = "Thread Credentials";
 "thread.credentials.share_credentials.no_credentials_message" = "Make sure your are logged in with your iCloud account which is owner of a Home in Apple Home.";
 "thread.credentials.share_credentials.no_credentials_title" = "You don't have credentials to share";
-"thread.credentials.share_credentials_button_title" = "Share credential with Home Assistant";
+"thread.credentials.share_credentials_button_title" = "Share credential with NRJHub";
 "thread.extended_pan_id.title" = "Extended PAN ID";
 "thread.management.title" = "Thread Credentials";
 "thread.network_key.title" = "Network Key";
@@ -695,7 +693,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "thread.store_in_keychain.error.message" = "Failed to store thread credential in keychain, error: %@";
 "thread.store_in_keychain.error.title" = "Operation failed";
 "thread.transter_to_apple.title" = "Transfer to Apple Keychain";
-"thread.transter_to_homeassistant.title" = "Transfer to Home Assistant";
+"thread.transter_to_homeassistant.title" = "Transfer to NRJHub";
 "token_error.connection_failed" = "Tilkoblingen mislyktes.";
 "token_error.expired" = "Token er utløpt.";
 "token_error.token_unavailable" = "Token er ikke tilgjengelig.";
@@ -725,7 +723,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "url_handler.send_location.success.title" = "Send plassering";
 "url_handler.x_callback_url.error.eventNameMissing" = "Hendelsesnavn må defineres";
 "url_handler.x_callback_url.error.general" = "Det oppstod en generell feil";
-"url_handler.x_callback_url.error.serviceMissing" = "Service (f.eks. homeassistant. turn_on) må defineres";
+"url_handler.x_callback_url.error.serviceMissing" = "Service (f.eks. nrjhub. turn_on) må defineres";
 "url_handler.x_callback_url.error.templateMissing" = "En gjengivelsesmal må defineres";
 "username_label" = "Brukernavn";
 "watch.assist.lack_config.error.title" = "Please configure Assist using iOS companion App";
@@ -941,7 +939,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "watch.labels.selected_pipeline.title" = "Pipeline";
 "watch.placeholder_complication_name" = "Plassholder";
 "watch.settings.no_items.phone.title" = "No items configured, please choose items below.";
-"widgets.actions.description" = "Utfør Home Assistant handlinger.";
+"widgets.actions.description" = "Utfør NRJHub handlinger.";
 "widgets.actions.not_configured" = "Ingen handlinger konfigurert";
 "widgets.actions.parameters.action" = "Action";
 "widgets.actions.title" = "Handlinger";
@@ -950,7 +948,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "widgets.assist.title" = "Assist";
 "widgets.assist.unknown_configuration" = "Configure";
 "widgets.button.reload_timeline" = "Reload all widgets";
-"widgets.controls.assist.description" = "Open Assist in Home Assistant app";
+"widgets.controls.assist.description" = "Open Assist in NRJHub app";
 "widgets.controls.assist.pipeline.placeholder" = "Choose a pipeline";
 "widgets.controls.assist.title" = "Assist";
 "widgets.controls.light.description" = "Turn on/off your light";
@@ -966,7 +964,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "widgets.controls.scripts.placeholder_title" = "Choose script";
 "widgets.controls.switch.description" = "Turn on/off your switch";
 "widgets.controls.switch.title" = "Switch";
-"widgets.details.description" = "Display states using from Home Assistant in text";
+"widgets.details.description" = "Display states using from NRJHub in text";
 "widgets.details.parameters.action" = "Action";
 "widgets.details.parameters.details_template" = "Details Text Template (only in rectangular family)";
 "widgets.details.parameters.lower_template" = "Lower Text Template";
@@ -974,7 +972,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "widgets.details.parameters.server" = "Server";
 "widgets.details.parameters.upper_template" = "Upper Text Template";
 "widgets.details.title" = "Details";
-"widgets.gauge.description" = "Display numeric states from Home Assistant in a gauge";
+"widgets.gauge.description" = "Display numeric states from NRJHub in a gauge";
 "widgets.gauge.parameters.action" = "Action";
 "widgets.gauge.parameters.gauge_type" = "Gauge Type";
 "widgets.gauge.parameters.gauge_type.capacity" = "Capacity";
@@ -987,7 +985,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "widgets.gauge.parameters.value_template" = "Value Template (0-1)";
 "widgets.gauge.title" = "Gauge";
 "widgets.lights.description" = "Turn on/off light";
-"widgets.open_page.description" = "Åpne en frontend -side i Home Assistant.";
+"widgets.open_page.description" = "Åpne en frontend -side i NRJHub.";
 "widgets.open_page.not_configured" = "Ingen sider tilgjengelig";
 "widgets.open_page.title" = "Åpne side";
 "widgets.reload_widgets.app_intent.description" = "Reload all widgets timelines.";
